@@ -79,7 +79,7 @@ it("should return the expected output - large number", function(){
 });
 
 // What does the code do in exceptional circumstances? Specifically, if you divide by zero, what is the effect? Write a test to describe what ...
-// ...you'd prefer to happen, and then correct the code to make that test pass (you will need to modify the Calculator model to meet this requirement).
+// ..you'd prefer to happen, and then correct the code to make that test pass (you will need to modify the Calculator model to meet this requirement).
 it("should display message when trying to divide by zero", function(){
   element(by.css('#number3')).click();
   element(by.css('#operator_divide')).click();
